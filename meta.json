@@ -52,6 +52,14 @@
             "title":"Action"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive",
+            "https://www.googleapis.com/auth/drive.file",
+            "https://www.googleapis.com/auth/drive.readonly"
+        ]
+    }],
     "icon": "dex-drive",
     "title": "Google Drive Get Replies" /* Required.A display name for the module */
 }
